@@ -274,3 +274,10 @@ def correct_Gr_Json(JsonFile,DataFile,DrawIO,Type=2):
             json.dump(data_j,jsonfile,indent=2,ensure_ascii=False)
     jsonfile.close()
     return data_j 
+
+
+# Run Example
+#DataFile=".\Grafana\TA\Data.xlsx"
+#JsonFile=".\Grafana\TA\Grafana.json"
+#BJson=get_B_drawio_xml_string(JsonFile)
+#correct_Gr_Json(JsonFile,DataFile,BJson)
